@@ -1,29 +1,47 @@
-# vue-bio
+# Developer Portfolio Website
 
-This template should help get you started developing with Vue 3 in Vite.
+This repository contains the code for a developer portfolio website using Vue 3. It showcases a professional developer bio, skills, projects, and contact information, and serves as a platform to highlight work and experience.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+* About Section: A brief bio highlighting background, expertise, and interests.
+* Skills: A section that dynamically displays technical skills and tools.
+* Projects: A portfolio section with details on past and current projects, including links to demos and source code.
+* Contact: A contact form and links to social media profiles for easy outreach.
 
-## Customize configuration
+## Technologies Used
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+* Vue 3: JavaScript framework for building the user interface..
+* Vue Router: For managing page navigation.
+* Tailwind CSS: CSS framework for responsive and modern styling.
+* EmailJS: For integrating the contact form with email services.
 
-## Project Setup
+## Setup Instructions
 
-```sh
-npm install
-```
+### Prerequisites
+* Node.js and npm installed on your machine.
 
-### Compile and Hot-Reload for Development
+### Installation
 
-```sh
-npm run dev
-```
+1. Clone the repository: 
+    git clone https://github.com/caseofbase18/vue-bio.git
+2. Navigate into the project directory.
+    cd vue-bio
+3. Install dependencies.
+    npm install
 
-### Compile and Minify for Production
+## Usage
 
-```sh
-npm run build
+To start the app locally:
+    npm run dev
+
+This will start the development server on http://localhost:5173
+
+## Key Components
+* Navbar.vue: Navigation bar with smooth scrolling and links to sections and pages.
+* About.vue: About page for personal bio and introductory details.
+* Skills.vue: Dynamic skill badges and proficiency levels.
+* Projeccts.vue: Portfolio section with cards showing project details, demo links, and GitHub links.
+* ContactForm.vue: Contact form connected to EmailJS for receiving messages.
+
 ```
