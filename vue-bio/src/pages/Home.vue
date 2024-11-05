@@ -5,7 +5,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="../assets/images/casey-headshot-pink.jpeg" width="125" height="125" />
+    <img alt="Vue logo" class="rounded-full" src="../assets/images/casey-headshot-pink.jpeg" />
 
     <!-- <div class="wrapper">
       <HelloWorld msg="You did it!" />
@@ -15,7 +15,7 @@ import TheWelcome from '../components/TheWelcome.vue'
   <main >
     <!-- <TheWelcome /> -->
      <div class="header-content">
-      <h1>Hello.</h1>
+      <h1 class="text-4xl text-pink-600">Hello.</h1>
      <h1>I'm Casey.</h1>
      <h2>A developer.</h2>
      </div>

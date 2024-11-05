@@ -11,7 +11,7 @@ This repository contains the code for a developer portfolio website using Vue 3.
 
 ## Technologies Used
 
-* Vue 3: JavaScript framework for building the user interface..
+* Vue 3: JavaScript framework for building the user interface.
 * Vue Router: For managing page navigation.
 * Tailwind CSS: CSS framework for responsive and modern styling.
 * EmailJS: For integrating the contact form with email services.
