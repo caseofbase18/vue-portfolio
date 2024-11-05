@@ -41,7 +41,7 @@ This will start the development server on http://localhost:5173
 * Navbar.vue: Navigation bar with smooth scrolling and links to sections and pages.
 * About.vue: About page for personal bio and introductory details.
 * Skills.vue: Dynamic skill badges and proficiency levels.
-* Projeccts.vue: Portfolio section with cards showing project details, demo links, and GitHub links.
+* Projects.vue: Portfolio section with cards showing project details, demo links, and GitHub links.
 * ContactForm.vue: Contact form connected to EmailJS for receiving messages.
 
 ```
