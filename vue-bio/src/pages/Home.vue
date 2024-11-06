@@ -1,27 +1,29 @@
-<script setup>
-import HelloWorld from '../components/HelloWorld.vue'
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="rounded-full" src="../assets/images/casey-headshot-pink.jpeg" />
-
-    <!-- <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div> -->
-  </header>
-
-  <main >
-    <!-- <TheWelcome /> -->
-     <div class="header-content">
-      <h1 class="text-4xl text-pink-600">Hello.</h1>
-     <h1>I'm Casey.</h1>
-     <h2>A developer.</h2>
-     </div>
-    
-  </main>
+  <div id="app">
+    <main>
+      <div class="header-content">
+        <h1 class="text-4xl text-pink-600">Hello.</h1>
+        <h1>I'm Casey.</h1>
+        <h2>A developer.</h2>
+      </div>
+      <div>
+        <h2>A little about me...</h2>
+        <p>I like cats.</p>
+      </div>
+    </main>
+  </div>
 </template>
+
+<script>
+import HeaderNav from '../components/HeaderNav.vue';  // Ensure correct path
+
+export default {
+  name: 'Home',
+  components: {
+    HeaderNav
+  }
+}
+</script>
 
 <style scoped>
 header {
