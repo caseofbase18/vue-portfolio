@@ -1,49 +1,61 @@
 <template>
-    <header class="header-nav">
+  <header class="sticky top-0 bg-white shadow-md z-50 w-full">
+    <div class="max-w-screen-2xl mx-auto flex justify-between items-center px-4 py-4">
+      <!-- Logo -->
       <div class="logo">
-        <router-link to="/">MyApp</router-link>  <!-- Replace with your app's name or logo -->
+        <router-link to="/" class="text-custom-grey hover:text-pink-600 hover:bg-transparent focus:text-pink-600 text-2xl font-bold">Casey Maltese | Frontend Web Developer</router-link>
       </div>
-  
-      <nav>
-        <ul class="nav-links">
+
+      <!-- Navigation -->
+      <nav class="flex">
+        <ul class="nav-links flex space-x-14">
           <li>
-            <router-link to="/">Home</router-link>
+            <router-link to="/" class="text-custom-grey hover:text-pink-600 hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-pink-600 focus:underline focus:underline-offset-2 text-base">Home</router-link>
           </li>
           <!-- <li>
-            <router-link to="/about">About</router-link>
+            <router-link to="/about" class="text-white hover:text-gray-300">About</router-link>
           </li> -->
           <li>
-            <router-link to="/portfolio">Portfolio</router-link>
-          </li> 
+            <router-link to="/portfolio" class="text-custom-grey hover:text-pink-600 hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-pink-600 focus:underline focus:underline-offset-2 text-base">Portfolio</router-link>
+          </li>
           <li>
-            <router-link to="/contact">Contact</router-link>
+            <router-link to="/contact" class="text-custom-grey hover:text-pink-600 hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-pink-600 focus:underline focus:underline-offset-2 text-base">Contact</router-link>
+          </li>
+          <li>
+            <router-link to="/hobbiesandinterests" class="text-custom-grey hover:text-pink-600 hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-pink-600 focus:underline focus:underline-offset-2 text-base">Hobbies & Interests</router-link>
           </li>
         </ul>
       </nav>
-  
-      <div class="hamburger" @click="toggleMenu">
+
+      <!-- Hamburger Icon (for mobile) -->
+      <div class="hamburger lg:hidden" @click="toggleMenu">
         <span v-if="!isMenuOpen">&#9776;</span> <!-- Hamburger icon -->
         <span v-else>&times;</span> <!-- Close icon -->
       </div>
-  
-      <div v-if="isMenuOpen" class="mobile-menu">
-        <ul>
-          <li>
-            <router-link to="/">Home</router-link>
-          </li>
-          <!-- <li>
-            <router-link to="/about">About</router-link>
-          </li>
-          <li>
-            <router-link to="/services">Services</router-link>
-          </li> -->
-          <li>
-            <router-link to="/contact">Contact</router-link>
-          </li>
-        </ul>
-      </div>
-    </header>
-  </template>
+    </div>
+
+    <!-- Mobile Menu (when the menu is open) -->
+    <div v-if="isMenuOpen" class="mobile-menu bg-gray-800 p-4 lg:hidden">
+      <ul>
+        <li>
+          <router-link to="/" class="text-custom-grey hover:text-pink-600 hover:underline hover:underline-offset-2 focus:underline focus:underline-offset-2">Home</router-link>
+        </li>
+        <!-- <li>
+          <router-link to="/about" class="text-white hover:text-gray-300">About</router-link>
+        </li> -->
+        <li>
+          <router-link to="/portfolio" class="text-custom-grey hover:text-pink-600 hover:underline hover:underline-offset-2 focus:underline focus:underline-offset-2">Portfolio</router-link>
+        </li>
+        <li>
+          <router-link to="/contact" class="text-custom-grey hover:text-pink-600 hover:underline hover:underline-offset-2 focus:underline focus:underline-offset-2">Contact</router-link>
+        </li>
+        <li>
+          <router-link to="/hobbiesandinterests" class="text-custom-grey hover:text-pink-600 hover:underline hover:underline-offset-2 focus:underline focus:underline-offset-2">Hobbies & Interests</router-link>
+        </li>
+      </ul>
+    </div>
+  </header>
+</template>
   
   <script>
   export default {
@@ -62,41 +74,7 @@
   </script>
   
   <style scoped>
-  /* Basic styling for header */
-  .header-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-  }
-  
-  .logo a {
-    color: white;
-    font-size: 24px;
-    text-decoration: none;
-  }
-  
-  nav {
-    display: flex;
-  }
-  
-  .nav-links {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-  }
-  
-  .nav-links li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  
-  .nav-links li a:hover {
-    text-decoration: underline;
-  }
+
   
   /* Hamburger menu for mobile */
   .hamburger {
@@ -137,6 +115,7 @@
   @media (max-width: 768px) {
     .hamburger {
       display: block;
+      color: #DB2777;
     }
   
     .nav-links {
