@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1 class="text-pink-600">I AM THE HOBBIES AND INTERESTS PAGE!!!!</h1>
+      <h1 class="text-white">I AM THE HOBBIES AND INTERESTS PAGE!!!!</h1>
     </div>
   </template>
   
