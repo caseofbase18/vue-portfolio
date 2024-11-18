@@ -1,6 +1,6 @@
 <template>
-    <footer class="bg-black text-gray-50 py-6">
-      <div class="max-w-screen-2xl mx-auto px-8">
+    <footer class="bg-black text-gray-50 py-6 sticky top-[100vh]">
+      <div class="max-w-screen-xl mx-auto px-8">
         <!-- Footer Content -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-24">
           
