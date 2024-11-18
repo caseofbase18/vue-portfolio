@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-center flex-col px-72 pt-20">
-    <h2 class="text-4xl text-gray-50 pb-4 font-semibold">Contact Me!</h2>
+    <h2 class="text-4xl text-gray-50 pb-4 font-semibold">Let's chat!</h2>
     <p class="text-2xl text-gray-50 pb-4 font-medium">
       Got a question, idea, or just want to say hello? I’d love to hear from
       you! Whether you're looking for collaboration or simply want to
@@ -9,7 +9,7 @@
     </p>
 
     <p class="text-2xl text-gray-50 font-medium">
-      Use the form below or shoot me an email directly — I can’t wait to talk!
+      Use the contact form below or shoot me an email directly — I can’t wait to talk!
     </p>
   </div>
   <div class="flex justify-center items-center px-10 pt-10 pb-40">
