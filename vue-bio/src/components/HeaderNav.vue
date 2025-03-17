@@ -3,7 +3,7 @@
     <div class="max-w-screen-2xl mx-auto flex justify-between items-center px-4 py-4">
       <!-- Logo -->
       <div class="logo">
-        <router-link to="/" class="text-custom-grey hover:text-custom-purple hover:bg-transparent focus:text-custom-purple text-2xl font-bold">Casey Maltese | Front-End Web Developer</router-link>
+        <router-link to="/" class="text-custom-grey hover:text-custom-purple hover:bg-transparent focus:text-custom-purple text-2xl font-bold">Casey Natale Maltese | Front-End Web Developer</router-link>
       </div>
 
       <!-- Navigation -->
@@ -18,9 +18,9 @@
           <li>
             <router-link to="/contact" class="text-custom-grey hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-base">Contact</router-link>
           </li>
-          <li>
+          <!-- <li>
             <router-link to="/hobbiesandinterests" class="text-custom-grey hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-base">Hobbies & Interests</router-link>
-          </li>
+          </li> -->
         </ul>
       </nav>
 

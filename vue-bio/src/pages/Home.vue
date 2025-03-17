@@ -35,8 +35,8 @@
 
       <p class="text-2xl text-gray-50 pb-4 font-medium">
         My skills span HTML, CSS, JavaScript, Vue.js, Tailwind CSS, various
-        content managment systems, and responsive design, with a strong focus on
-        front-end development and WordPress. I’m also experienced in crafting
+        content managment systems, and responsive design with a strong focus on
+        front-end development and WordPress using the Elementor theme. I’m also experienced in crafting
         HTML emails and landing pages for B2B marketing campaigns. Whether I’m
         debugging code or building a feature from scratch, I bring the same
         creativity, problem-solving, and attention to detail that I honed as a
@@ -44,7 +44,7 @@
       </p>
 
       <p class="text-2xl text-gray-50 pb-4 font-medium">
-        Currently, I work as a WordPress Web Specialist at OneUnited Bank, where
+        Currently, I work as a WordPress Web Specialist at OneUnited Bank where
         I apply my technical expertise to deliver high-quality web solutions.
         I’m passionate about making complex ideas simple and delivering
         impactful digital experiences.
@@ -57,14 +57,14 @@
         something unique!
       </p>
 
-      <p class="text-2xl text-gray-50 pb-10 font-medium">
+      <!-- <p class="text-2xl text-gray-50 pb-10 font-medium">
         Outside of coding, you can find me playing the French horn, running,
         experimenting in the kitchen, or trying (and failing) to grow peppers on
         my patio. To learn more about my hobbies and interests, feel free to check out my <a href="/hobbiesandinterests" class="text-gray-50 underline hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold">Hobbies & Interests page</a> on the website. 
-      </p>
+      </p> -->
 
       <p class="text-2xl text-gray-50 pb-4 font-medium">
-        Let’s <a href="/contact" class="text-gray-50 underline hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold">connect</a> and create something great!
+        Let’s <a href="/contact" class="text-gray-50 underline hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold">connect</a> and build something great!
       </p>
     </div>
   </div>

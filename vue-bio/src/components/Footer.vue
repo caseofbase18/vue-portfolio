@@ -15,16 +15,16 @@
             <h4 class="text-lg font-semibold mb-2 text-custom-purple">Quick Links</h4>
             <ul>
               <li>
-                <router-link to="/" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-base">Home</router-link>
+                <router-link to="/" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-sm">Home</router-link>
               </li>
               <li>
-                <router-link to="/portfolio" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-base">Portfolio</router-link>
+                <router-link to="/portfolio" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-sm">Portfolio</router-link>
               </li>
               <li>
-                <router-link to="/contact" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-base">Contact</router-link>
+                <router-link to="/contact" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-sm">Contact</router-link>
               </li>
               <li>
-                <router-link to="/hobbiesandinterests" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-base">Hobbies & Interests</router-link>
+                <router-link to="/hobbiesandinterests" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-sm">Hobbies & Interests</router-link>
               </li>
             
             
@@ -51,14 +51,14 @@
           <!-- Contact Info -->
           <div>
             <h4 class="text-lg font-semibold mb-2 text-custom-purple">Contact</h4>
-            <p class="text-base">Email: <a href="mailto:caseymaltese@gmail.com" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-base">caseymaltese@gmail.com</a></p>
+            <p class="text-sm">Email: <a href="mailto:caseymaltese@gmail.com" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-sm">caseymaltese@gmail.com</a></p>
           </div>
         </div>
         
         <!-- Footer Bottom -->
         <div class="text-center mt-6 text-sm text-custom-purple">
         <p>All icons provided by <a target="_blank" href="https://icons8.com" class="text-custom-purple hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold">Icons8.</a></p>
-          <p>&copy; 2024 Casey Maltese. All rights reserved.</p>
+          <p>&copy; 2025 Casey Maltese. All rights reserved.</p>
         </div>
       </div>
     </footer>

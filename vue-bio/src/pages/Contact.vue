@@ -1,14 +1,14 @@
 <template>
   <div class="flex justify-center items-center flex-col px-72 pt-20">
     <h2 class="text-4xl text-gray-50 pb-4 font-semibold">Let's chat!</h2>
-    <p class="text-2xl text-gray-50 pb-4 font-medium">
+    <p class="text-2xl text-gray-50 pb-4 font-medium text-center">
       Got a question, idea, or just want to say hello? I’d love to hear from
       you! Whether you're looking for collaboration or simply want to
       connect, feel free to drop me a message. I’ll get back to you as soon as I
       can.
     </p>
 
-    <p class="text-2xl text-gray-50 font-medium">
+    <p class="text-2xl text-gray-50 font-medium text-center">
       Use the contact form below or shoot me an email directly — I can’t wait to talk!
     </p>
   </div>
@@ -20,12 +20,14 @@
           v-model="name"
           placeholder="Your Name..."
           class="drop-shadow-lg rounded-xl px-4 h-8"
+          required
         />
         <input
           type="email"
           v-model="email"
           placeholder="Your Email..."
           class="drop-shadow-lg rounded-xl px-4"
+          required
         />
       </div>
       <div class="pb-4">
@@ -33,6 +35,7 @@
           v-model="message"
           placeholder="Your Message..."
           class="drop-shadow-lg rounded-xl px-4 py-2 w-full h-44"
+          required
         ></textarea>
       </div>
       <div>
