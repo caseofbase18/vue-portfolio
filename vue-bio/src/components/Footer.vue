@@ -58,7 +58,7 @@
         <!-- Footer Bottom -->
         <div class="text-center mt-6 text-sm text-custom-purple">
         <p>All icons provided by <a target="_blank" href="https://icons8.com" class="text-custom-purple hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold">Icons8.</a></p>
-          <p>&copy; 2025 Casey Maltese. All rights reserved.</p>
+          <p>&copy;2025 Casey Maltese. All rights reserved.</p>
         </div>
       </div>
     </footer>
