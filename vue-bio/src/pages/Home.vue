@@ -2,7 +2,7 @@
   <div
     id="app"
   >
-    <main class="flex justify-center items-center px-10 pt-20 pb-10">
+    <main class="flex justify-center items-center px-10 pt-24 pb-10">
       <div class="flex justify-between w-full max-w-4xl px-4">
         <!-- Left Column: Image -->
         <div class="flex justify-center items-center">

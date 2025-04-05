@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-center items-center flex-col px-72 pt-20">
-    <h2 class="text-4xl text-gray-50 pb-4 font-semibold">Let's chat!</h2>
+  <div class="flex justify-center items-center flex-col px-72 pt-24">
+    <h1 class="text-5xl text-gray-50 pb-4 font-semibold">Let's chat!</h1>
     <p class="text-2xl text-gray-50 pb-4 font-medium text-center">
       Got a question, idea, or just want to say hello? I’d love to hear from
       you! Whether you're looking for collaboration or simply want to
@@ -38,10 +38,10 @@
           required
         ></textarea>
       </div>
-      <div>
+      <div class="flex justify-center">
         <button
           type="submit"
-          class="drop-shadow-lg border border-custom-dark-purple rounded-xl text-gray-50 bg-custom-dark-purple font-semibold px-6 h-10 hover:bg-custom-light-green hover:border-custom-light-green hover:font-bold"
+          class="drop-shadow-lg border border-custom-light-green rounded-xl text-gray-50 bg-custom-light-green font-semibold px-6 h-10 hover:bg-custom-dark-purple hover:border-custom-dark-purple hover:font-bold"
         >
           Send Email
         </button>

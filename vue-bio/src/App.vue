@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="min-h-screen bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed bg-blend-multiply bg-black bg-opacity-30" :style="backgroundStyle">
+    <div id="app" class="min-h-screen bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed bg-blend-multiply bg-black bg-opacity-40" :style="backgroundStyle">
       <HeaderNav />
       <RouterView />
       <Footer />
