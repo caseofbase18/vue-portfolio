@@ -23,9 +23,9 @@
               <li>
                 <router-link to="/contact" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-sm">Contact</router-link>
               </li>
-              <li>
+              <!-- <li>
                 <router-link to="/hobbiesandinterests" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-sm">Hobbies & Interests</router-link>
-              </li>
+              </li> -->
             
             
             </ul>
@@ -36,13 +36,13 @@
             <h4 class="text-lg font-semibold mb-2 text-custom-purple">Follow Me</h4>
             <div class="flex space-x-4">
               <!-- These still link to external URLs, so <a> is fine here -->
-                <a href="https://www.linkedin.com/in/casey-natale-maltese/" target="_blank" class="w-10 hover:bg-transparent hover:w-12">
+                <a href="https://www.linkedin.com/in/casey-natale-maltese/" target="_blank" class="w-10 hover:bg-transparent hover:w-11">
                     <img src="../assets/images/linkedin-icon.png" alt="LinkedIn icon">
                 </a>
-                <a href="https://www.instagram.com/caseofbase18/" target="_blank" class="w-10 hover:bg-transparent hover:w-12">
+                <a href="https://www.instagram.com/caseofbase18/" target="_blank" class="w-10 hover:bg-transparent hover:w-11">
                     <img src="../assets/images/instagram-icon.png" alt="Instagram icon">
                 </a>
-                <a href="https://www.facebook.com/casey.maltese.5" target="_blank" class="w-10 hover:bg-transparent hover:w-12">
+                <a href="https://www.facebook.com/casey.maltese.5" target="_blank" class="w-10 hover:bg-transparent hover:w-11">
                     <img src="../assets/images/facebook-icon.png" alt="Facebook icon">
                 </a>
             </div>

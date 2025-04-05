@@ -34,9 +34,9 @@
       </p>
 
       <p class="text-2xl text-gray-50 pb-4 font-medium">
-        My skills span HTML, CSS, JavaScript, Vue.js, Tailwind CSS, various
+        My skills span HTML, CSS, Tailwind CSS, JavaScript, Vue.js, React, various
         content managment systems, and responsive design with a strong focus on
-        front-end development and WordPress using the Elementor theme. I’m also experienced in crafting
+        WordPress using the Elementor theme. I’m also experienced in crafting
         HTML emails and landing pages for B2B marketing campaigns. Whether I’m
         debugging code or building a feature from scratch, I bring the same
         creativity, problem-solving, and attention to detail that I honed as a
