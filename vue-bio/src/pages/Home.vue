@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <main class="flex justify-center items-center px-10 pt-24 pb-10">
-      <div class="flex justify-between w-full max-w-5xl px-4">
+      <div class="flex flex-col md:flex-row justify-between w-full max-w-5xl px-4 gap-8 md:gap-3">
         <!-- Left Column: Image -->
         <div class="flex justify-center items-center flex-1">
           <img
@@ -13,7 +13,7 @@
 
         <!-- Right Column: Text -->
         <div
-          class="flex flex-col justify-center items-center flex-1 gap-3"
+          class="flex flex-col justify-center items-center flex-1 gap-3 text-center md:text-left"
         >
           <h1 class="text-6xl text-gray-50 pb-2 font-bold">
             Crafting Beautiful Web Experiences
@@ -26,7 +26,7 @@
       </div>
     </main>
     <div
-      class="flex justify-center items-center flex-col px-56 py-20 bg-gradient-to-t from-black via-gray-900 to-transparent"
+      class="flex justify-center items-center flex-col px-12 lg:px-48 xl:px-56 py-8 md:py-20 bg-gradient-to-t from-black via-gray-900 to-transparent text-center md:text-left"
     >
       <h2 class="text-4xl text-gray-50 pb-4 font-semibold">About Me</h2>
       <p class="text-2xl text-gray-50 pb-4 font-medium">

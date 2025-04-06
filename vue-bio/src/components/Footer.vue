@@ -1,8 +1,8 @@
 <template>
-    <footer class="bg-black text-gray-50 py-6 sticky top-[100vh]">
+    <footer class="bg-black text-gray-50 py-6 sticky top-[100vh] text-center sm:text-left">
       <div class="max-w-screen-xl mx-auto px-8">
         <!-- Footer Content -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-20">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-20">
           
           <!-- My Info -->
           <div>
@@ -34,7 +34,7 @@
           <!-- Social Media Links -->
           <div>
             <h4 class="text-lg font-semibold mb-2 text-custom-purple">Follow Me</h4>
-            <div class="flex space-x-4">
+            <div class="flex space-x-4 justify-center sm:justify-start">
               <!-- These still link to external URLs, so <a> is fine here -->
                 <a href="https://www.linkedin.com/in/casey-natale-maltese/" target="_blank" class="w-10 hover:bg-transparent hover:w-11">
                     <img src="../assets/images/linkedin-icon.png" alt="LinkedIn icon">
