@@ -31,7 +31,7 @@ Welcome to my Developer Portfolio! This repository contains the code for my pers
     * Sign up or log in to EmailJS.
     * Create an EmailJS service and use the provided service ID, template ID, and user ID.
     * Replace the placeholders in the project with your EmailJS credentials:
-        * In src/components/ContactForm.vue, update the EmailJS configuration.
+        * In src/pages/Contact.vue, update the EmailJS configuration.
 
 ## Usage
 
