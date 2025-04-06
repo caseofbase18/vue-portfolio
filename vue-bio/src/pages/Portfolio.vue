@@ -1,32 +1,15 @@
-<!-- <template>
-    <div>
-      <h1 class="text-white">I AM THE PORTFOLIO PAGE!!!!</h1>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'Portfolio'
-  };
-  </script>
-  
-  <style scoped>
-  /* Your CSS for the contact page */
-  </style> -->
-
 <template>
   <div class="py-16 xl:mx-48 lg:mx-32 md:mx-20 mx-5">
     <h1 class="text-5xl text-gray-50 pb-4 font-semibold text-center py-6">
       Welcome to My Portfolio!
     </h1>
     <p class="text-2xl text-gray-50 font-medium text-center py-6">
-      I'm a passionate front-end developer with a focus on building responsive,
-      user-friendly websites and applications. I specialize in modern front-end
+      I'm a committed front-end developer with a focus on building responsive,
+      user-friendly websites and applications. Specializing in modern front-end
       technologies such as HTML, CSS, Tailwind CSS, JavaScript, and frameworks
-      like Vue and React. I’m dedicated to crafting seamless, mobile-first
-      designs that adapt beautifully to any screen size. Take a look at my work
-      and see how I can bring your ideas to life with clean, responsive web
-      design.
+      like Vue and React, I’m dedicated to crafting seamless, mobile-first
+      designs. Take a look at my work and see how I can bring your ideas to life
+      with clean, responsive web design.
     </p>
 
     <div
@@ -147,6 +130,65 @@
         >
       </div>
     </div>
+
+    <!-- <div
+      class="flex flex-col items-center md:flex-row md:items-stretch justify-center gap-14 pt-6"
+    >
+     
+      <div
+        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl"
+      >
+        <img
+          src="../assets/images/budget-tracker.webp"
+          alt="Image of home page for travel blog featuring a person taking a picture of mountains next to a pool."
+          class="w-full max-w-[400px] h-auto mb-4 mx-auto rounded drop-shadow-xl"
+        />
+        <p class="text-white text-base mb-4 font-medium pt-8">
+          The <span class="font-bold">Budget Tracker</span> is a web application
+          that helps users efficiently manage and monitor their finances. With
+          this app, users can easily enter their transactions and track their
+          expenses over time with a dynamic line graph. The app works both
+          online and offline, ensuring data is saved locally and synced when
+          reconnected to the internet. Built using HTML5, CSS3, JavaScript, and
+          backed by Node.js with Mongoose, the app offers a seamless user
+          experience, even without an internet connection.
+        </p>
+        <a
+          href="https://github.com/caseofbase18/budget_tracker"
+          target="_blank"
+          class="text-custom-dark-purple text-xl font-extrabold hover:underline hover:underline-offset-2 hover:bg-transparent hover:font-black"
+          >Budget Tracker</a
+        >
+      </div>
+
+      
+      <div
+        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl"
+      >
+        <img
+          src="../assets/images/fitness-tracker-dashboard.webp"
+          alt="Image of draggable list with images of various travel destinations and their descriptions."
+          class="w-full max-w-[600px] h-auto mb-4 mx-auto rounded drop-shadow-xl"
+        />
+        <p class="text-white text-base mb-4 font-medium pt-8">
+          The <span class="font-bold">Workout Tracker</span> is a web
+          application designed to help users log and track their daily workouts.
+          Users can easily log exercises categorized as Cardio or Resistance.
+          For Cardio exercises, users track the distance and duration, while for
+          Resistance exercises, they log the weight lifted, sets, reps, and
+          duration. Built with Node.js, Express, and MongoDB, this app provides
+          a simple and intuitive interface for managing fitness routines.
+          Whether you're tracking a run or a weightlifting session, the app
+          helps users stay organized and monitor their progress over time.
+        </p>
+        <a
+          href="https://github.com/caseofbase18/fitness_tracker"
+          target="_blank"
+          class="text-custom-dark-purple text-xl font-extrabold hover:underline hover:underline-offset-2 hover:bg-transparent hover:font-black"
+          >Workout Tracker</a
+        >
+      </div>
+    </div> -->
   </div>
 </template>
 
