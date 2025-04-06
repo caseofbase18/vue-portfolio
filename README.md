@@ -23,9 +23,9 @@ Welcome to my Developer Portfolio! This repository contains the code for my pers
 
 1. Clone the repository: 
     git clone https://github.com/caseofbase18/vue-portfolio.git
-2. Navigate into the project directory.
+2. Navigate into the project directory: 
     cd vue-bio
-3. Install dependencies.
+3. Install dependencies: 
     npm install
 4. Set up EmailJS:
     * Sign up or log in to EmailJS.
