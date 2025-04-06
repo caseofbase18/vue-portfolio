@@ -28,10 +28,10 @@ Welcome to my Developer Portfolio! This repository contains the code for my pers
 3. Install dependencies.
     npm install
 4. Set up EmailJS:
-* Sign up or log in to EmailJS.
-* Create an EmailJS service and use the provided service ID, template ID, and user ID.
-* Replace the placeholders in the project with your EmailJS credentials:
-    * In src/components/ContactForm.vue, update the EmailJS configuration.
+    * Sign up or log in to EmailJS.
+    * Create an EmailJS service and use the provided service ID, template ID, and user ID.
+    * Replace the placeholders in the project with your EmailJS credentials:
+        * In src/components/ContactForm.vue, update the EmailJS configuration.
 
 ## Usage
 
