@@ -43,7 +43,7 @@ This will start the development server on http://localhost:5173
 ## Key Components
 * Vue Router handles routing between the Home, Portfolio, and Contact pages.
 * Tailwind CSS provides a mobile-first, responsive design that adjusts to various screen sizes.
-* The Contact Form uses EmailJS to send an email with the message content. Be sure to replace the default email configuration in ContactForm.vue with your own EmailJS credentials.
+* The Contact Form uses EmailJS to send an email with the message content. Be sure to replace the default email configuration in Contact.vue with your own EmailJS credentials.
 * The website is fully responsive, ensuring a great user experience on both desktop and mobile devices.
 
 ## Screenshots
