@@ -41,7 +41,7 @@
       <div class="flex justify-center">
         <button
           type="submit"
-          class="drop-shadow-lg border border-custom-light-green rounded-xl text-gray-50 bg-custom-light-green font-semibold px-6 h-10 hover:bg-custom-dark-purple hover:border-custom-dark-purple hover:font-bold"
+          class="drop-shadow-lg border border-custom-bg-green rounded-xl text-custom-dark-purple font-bold bg-custom-bg-green px-6 h-10 hover:bg-custom-dark-purple hover:border-custom-dark-purple hover:font-bold hover:text-gray-50"
         >
           Send Email
         </button>
