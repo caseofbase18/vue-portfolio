@@ -14,6 +14,16 @@
   </div>
   <div class="flex justify-center items-center px-6 sm:px-0 pt-10 pb-20 md:pb-40">
     <form @submit.prevent="sendEmail" class="sm:max-w-3xl">
+      <transition name="fade">
+        <div
+          v-if="showSuccessAlert"
+          class="mb-6 bg-custom-green text-white px-4 py-3 rounded-xl shadow-md text-center"
+        >
+          <p class="font-bold">Success!</p>
+          <p class="text-sm">Your email has been sent. I'll get back to you soon!</p>
+        </div>
+      </transition>
+
       <div class="pb-4 flex gap-4 flex-col sm:flex-row">
         <input
           type="text"
@@ -60,6 +70,7 @@ export default {
       name: "",
       email: "",
       message: "",
+      showSuccessAlert: false, // New data property
     };
   },
   methods: {
@@ -73,7 +84,12 @@ export default {
 
       try {
         await emailService.sendEmail(params);
-        alert("Email sent successfully!");
+        this.showSuccessAlert = true; // Show the alert
+        // Hide the alert after 3 seconds
+        setTimeout(() => {
+          this.showSuccessAlert = false;
+        }, 5000);
+
         // Reset the form fields
         this.name = "";
         this.email = "";
@@ -89,4 +105,12 @@ export default {
 
 <style scoped>
 /* Your CSS for the contact page */
+
+/* Vue Transition Styles */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
 </style>
