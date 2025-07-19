@@ -35,6 +35,8 @@ Welcome to my Developer Portfolio! This repository contains the code for my pers
 
 ## Usage
 
+To view the live website: https://www.caseofbase18.com/
+
 To start the app locally:
     npm run dev
 
