@@ -6,8 +6,7 @@
     <p class="text-2xl text-gray-50 font-medium text-center py-6">
       I'm a committed front-end developer with a focus on building responsive,
       user-friendly websites and applications. Specializing in modern front-end
-      technologies such as HTML, CSS, Tailwind CSS, JavaScript, and frameworks
-      like Vue and React, I’m dedicated to crafting seamless, mobile-first
+      technologies and content management systems, I’m dedicated to crafting seamless, mobile-first
       designs. Take a look at my work and see how I can bring your ideas to life
       with clean, responsive web design.
     </p>
@@ -17,7 +16,7 @@
     >
       <!-- Section 1 -->
       <div
-        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl"
+        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl bg-opacity-90"
       >
         <img
           src="../assets/images/crushing-travel.webp"
@@ -45,7 +44,7 @@
 
       <!-- Section 2 -->
       <div
-        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl"
+        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl bg-opacity-90"
       >
         <img
           src="../assets/images/draggable-list.webp"
@@ -77,7 +76,7 @@
     >
       <!-- Section 3 -->
       <div
-        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl"
+        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl bg-opacity-90"
       >
         <img
           src="../assets/images/budget-tracker.webp"
@@ -104,7 +103,7 @@
 
       <!-- Section 4 -->
       <div
-        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl"
+        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl bg-opacity-90"
       >
         <img
           src="../assets/images/fitness-tracker-dashboard.webp"
@@ -136,7 +135,7 @@
     >
      
       <div
-        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl"
+        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl bg-opacity-90"
       >
         <img
           src="../assets/images/budget-tracker.webp"
@@ -163,7 +162,7 @@
 
       
       <div
-        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl"
+        class="text-center w-full max-w-2xl h-auto sm:w-1/2 lg:w-1/2 border rounded border-custom-bg-green p-8 bg-custom-bg-green drop-shadow-xl bg-opacity-90"
       >
         <img
           src="../assets/images/fitness-tracker-dashboard.webp"
