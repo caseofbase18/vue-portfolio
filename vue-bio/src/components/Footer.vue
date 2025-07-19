@@ -23,9 +23,6 @@
               <li>
                 <router-link to="/contact" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-sm">Contact</router-link>
               </li>
-              <!-- <li>
-                <router-link to="/hobbiesandinterests" class="text-gray-50 hover:font-bold hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold text-sm">Hobbies & Interests</router-link>
-              </li> -->
             
             
             </ul>

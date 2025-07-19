@@ -1,9 +1,9 @@
 <template>
-  <div class="py-16 xl:mx-48 lg:mx-32 md:mx-20 mx-5">
-    <h1 class="text-5xl text-gray-50 pb-4 font-semibold text-center py-6">
+  <div class="py-12 md:py-24 xl:mx-48 lg:mx-32 md:mx-20 mx-5">
+    <h1 class="text-3xl md:text-5xl text-gray-50 font-semibold text-center">
       Welcome to My Portfolio!
     </h1>
-    <p class="text-2xl text-gray-50 font-medium text-center py-6">
+    <p class="text-xl md:text-2xl text-gray-50 font-medium text-center py-6">
       I'm a committed front-end developer with a focus on building responsive,
       user-friendly websites and applications. Specializing in modern front-end
       technologies and content management systems, I’m dedicated to crafting seamless, mobile-first

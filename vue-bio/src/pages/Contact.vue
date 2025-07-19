@@ -1,20 +1,20 @@
 <template>
-  <div class="flex justify-center items-center flex-col px-72 pt-24">
-    <h1 class="text-5xl text-gray-50 pb-4 font-semibold">Let's chat!</h1>
-    <p class="text-2xl text-gray-50 pb-4 font-medium text-center">
+  <div class="flex justify-center items-center flex-col px-6 lg:px-72 pt-12 md:pt-24">
+    <h1 class="text-3xl md:text-5xl text-gray-50 pb-4 font-semibold text-center">Let's chat!</h1>
+    <p class="text-xl md:text-2xl text-gray-50 pb-4 font-medium text-center">
       Got a question, idea, or just want to say hello? I’d love to hear from
       you! Whether you're looking for collaboration or simply want to
       connect, feel free to drop me a message. I’ll get back to you as soon as I
       can.
     </p>
 
-    <p class="text-2xl text-gray-50 font-medium text-center">
+    <p class="text-xl md:text-2xl text-gray-50 font-medium text-center">
       Use the contact form below or shoot me an email directly — I can’t wait to talk!
     </p>
   </div>
-  <div class="flex justify-center items-center px-10 pt-10 pb-40">
-    <form @submit.prevent="sendEmail" class="max-w-3xl">
-      <div class="pb-4 flex gap-4">
+  <div class="flex justify-center items-center px-6 sm:px-0 pt-10 pb-20 md:pb-40">
+    <form @submit.prevent="sendEmail" class="sm:max-w-3xl">
+      <div class="pb-4 flex gap-4 flex-col sm:flex-row">
         <input
           type="text"
           v-model="name"
@@ -26,7 +26,7 @@
           type="email"
           v-model="email"
           placeholder="Your Email..."
-          class="drop-shadow-lg rounded-xl px-4"
+          class="drop-shadow-lg rounded-xl px-4 h-8"
           required
         />
       </div>

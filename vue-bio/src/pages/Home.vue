@@ -15,10 +15,10 @@
         <div
           class="flex flex-col justify-center items-center flex-1 gap-3 text-center md:text-left"
         >
-          <h1 class="text-6xl text-gray-50 pb-2 font-bold">
+          <h1 class="text-3xl md:text-6xl text-gray-50 pb-2 font-bold">
             Crafting Beautiful Web Experiences
           </h1>
-          <p class="text-2xl text-gray-50 pb-2 font-medium">
+          <p class="text-xl md:text-2xl text-gray-50 pb-2 font-medium">
             Hello! I'm Casey, a dedicated developer focused on building
             responsive, engaging, and user-friendly web applications.
           </p>
@@ -28,8 +28,8 @@
     <div
       class="flex justify-center items-center flex-col px-12 lg:px-48 xl:px-56 py-8 md:py-20 bg-gradient-to-t from-black via-gray-900 to-transparent text-center md:text-left"
     >
-      <h2 class="text-4xl text-gray-50 pb-4 font-semibold">About Me</h2>
-      <p class="text-2xl text-gray-50 pb-4 font-medium">
+      <h2 class="text-2xl md:text-4xl text-gray-50 pb-4 font-semibold">About Me</h2>
+      <p class="text-xl md:text-2xl text-gray-50 pb-4 font-medium">
         Hi, I’m Casey Natale Maltese, a Front-End Web Developer with a passion
         for creating intuitive, user-friendly web experiences. Based in Miami, I
         bring a unique background to web development — having previously worked
@@ -37,7 +37,7 @@
         transitioning into tech.
       </p>
 
-      <p class="text-2xl text-gray-50 pb-4 font-medium">
+      <p class="text-xl md:text-2xl text-gray-50 pb-4 font-medium">
         My skills span HTML, CSS, Tailwind CSS, JavaScript, Vue.js, React,
         various content managment systems, and responsive design with a strong
         focus on WordPress using the Elementor theme. I’m also experienced in
@@ -47,14 +47,14 @@
         honed as a musician.
       </p>
 
-      <p class="text-2xl text-gray-50 pb-4 font-medium">
-        Currently, I work as a WordPress Web Specialist at OneUnited Bank where
+      <p class="text-xl md:text-2xl text-gray-50 pb-4 font-medium">
+        Currently, I am the WordPress Web Specialist at OneUnited Bank where
         I apply my technical expertise to deliver high-quality web solutions.
         I’m passionate about making complex ideas simple and delivering
         impactful digital experiences.
       </p>
 
-      <p class="text-2xl text-gray-50 pb-4 font-medium">
+      <p class="text-xl md:text-2xl text-gray-50 pb-4 font-medium">
         If you're exploring my website, feel free to check out my work,
         projects, and code samples
         <a
@@ -66,13 +66,7 @@
         I’m always eager to collaborate and create something unique!
       </p>
 
-      <!-- <p class="text-2xl text-gray-50 pb-10 font-medium">
-        Outside of coding, you can find me playing the French horn, running,
-        experimenting in the kitchen, or trying (and failing) to grow peppers on
-        my patio. To learn more about my hobbies and interests, feel free to check out my <a href="/hobbiesandinterests" class="text-gray-50 underline hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold">Hobbies & Interests page</a> on the website. 
-      </p> -->
-
-      <p class="text-2xl text-gray-50 pb-4 font-medium">
+      <p class="text-xl md:text-2xl text-gray-50 pb-4 font-medium">
         Let’s
         <a
           href="/contact"
