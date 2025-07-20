@@ -2,6 +2,8 @@
 
 Welcome to my Developer Portfolio! This repository contains the code for my personal portfolio website where you can learn more about me, view my featured projects, and get in touch through a contact form.
 
+To view the live website: https://www.caseofbase18.com/
+
 ## Features
 
 * Home Page: A brief introduction to who I am, including an about section that highlights my skills and experience.
@@ -34,8 +36,6 @@ Welcome to my Developer Portfolio! This repository contains the code for my pers
         * In src/pages/Contact.vue, update the EmailJS configuration.
 
 ## Usage
-
-To view the live website: https://www.caseofbase18.com/
 
 To start the app locally:
     npm run dev
