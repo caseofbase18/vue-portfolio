@@ -57,28 +57,34 @@
       <p class="text-xl md:text-2xl text-gray-50 pb-4 font-medium">
         If you're exploring my website, feel free to check out my work,
         projects, and code samples
-        <a
-          href="/portfolio"
-          class="text-gray-50 underline hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold"
-          >here</a
+       <router-link
+          to="/portfolio"
+          class="inline-block text-gray-50 border-b-2 border-gray-50 leading-none pb-0.5 hover:border-custom-purple hover:text-custom-purple transition-colors duration-200 hover:bg-transparent"
         >
+          here
+        </router-link>
+
+
         to get a sense of what I can bring to your next web development project.
         I’m always eager to collaborate and create something unique!
       </p>
 
       <p class="text-xl md:text-2xl text-gray-50 pb-4 font-medium">
         Let’s
-        <a
-          href="/contact"
-          class="text-gray-50 underline hover:text-custom-purple hover:underline hover:underline-offset-2 hover:bg-transparent focus:bg-transparent focus:text-custom-purple focus:underline focus:underline-offset-2 focus:font-bold"
-          >connect</a
+        <router-link
+          to="/contact"
+          class="inline-block text-gray-50 border-b-2 border-gray-50 leading-none pb-0.5 hover:border-custom-purple hover:text-custom-purple transition-colors duration-200 hover:bg-transparent"
         >
+          connect
+        </router-link>
         and build something great!
       </p>
     </div>
   </div>
 </template>
 
-<script></script>
+<script>
+export default {};
+</script>
 
 <style scoped></style>

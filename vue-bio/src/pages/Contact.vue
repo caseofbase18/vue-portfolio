@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center flex-col px-6 lg:px-72 pt-12 md:pt-24">
+  <div class="flex justify-center items-center flex-col px-6 xl:px-72 pt-12 md:pt-24">
     <h1 class="text-3xl md:text-5xl text-gray-50 pb-4 font-semibold text-center">Let's chat!</h1>
     <p class="text-xl md:text-2xl text-gray-50 pb-4 font-medium text-center">
       Got a question, idea, or just want to say hello? I’d love to hear from
